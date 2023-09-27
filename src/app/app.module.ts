@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HomeComponent } from './Components/home/home.component';
+import { TopNavComponent } from './Components/top-nav/top-nav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    TopNavComponent
   ],
   imports: [
     BrowserModule,
